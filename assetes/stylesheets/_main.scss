@@ -1,0 +1,157 @@
+.offer-info {
+  padding-top: 4.5rem;
+}
+
+// hero-section
+
+.hero-title {
+  background: url(../media/Home-page/hero_iphone14pro_spring__9xo85pm6sbmm_large.jpg);
+}
+
+// secend-section
+
+.home-secend-content-title {
+  background: url(../media/Home-page/hero_iphone14_yellow__eun20sn4imi6_large.jpg);
+}
+
+// watch-section
+
+.home-watch-title {
+  background: url(../media/Home-page/hero_apple_watch_series_8_spring__b1y8wb7xjc9y_large.jpg);
+}
+
+// home-all-product-article
+
+.home-all-product {
+  grid-template-columns: repeat(2, 1fr);
+  margin: 1rem;
+  gap: 1rem;
+}
+
+.home-trade-in-article {
+  background: url(../media/Home-page/iphone_tradein_promo__d5au3rkw5kuq_large.jpg);
+}
+
+.home-wwdc23-article {
+  background: url(../media/Home-page/promo_wwdc23__b68ptht3mro2_large.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding-bottom: 3rem;
+}
+
+.home-ipad-article {
+  background: url(../media/Home-page/promo_ipad__fioegapg12qi_large.jpg);
+}
+
+.home-MacBook-article {
+  background: url(../media/Home-page/promo_mbp__ek7p477bkp6q_large.jpg);
+}
+
+.home-watch-altra-title {
+  background: url(../media/Home-page/promo_apple_watch_ultra__gnsqulvdc4a6_large.jpg);
+}
+
+//  <!-- home-entertainment-gallery -->
+
+
+.carousel__slider {
+  width: 100%;
+  overflow: hidden;
+  cursor: pointer;
+
+  .slides {
+    padding: 0 1.5rem;
+  }
+
+  .slide-item {
+    min-width: 100%;
+    padding: 0rem 0.5rem;
+    position: relative;
+  }
+
+
+  .slide-item-text {
+    bottom: 5rem;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    padding-left: 5rem;
+    opacity: 0;
+    animation-name: appear;
+    animation-duration: 0.5s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+
+    button {
+      border: 0;
+      padding: 1rem 2.5rem;
+      border-radius: 30px;
+      margin-right: 3rem;
+    }
+
+    @keyframes appear {
+      0% {
+        opacity: 0;
+      }
+
+      100% {
+        opacity: 1;
+      }
+    }
+
+  }
+
+
+  //  css for slide navigation 
+
+  .navigation-manual {
+    display: flex;
+    justify-content: center;
+
+    .manual-btn {
+      border: 2px solid gray;
+      padding: 6px;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: 0.8s ease-in-out;
+      margin: 0.5rem 1rem;
+
+      &:hover {
+        background-color: gray;
+      }
+    }
+  }
+}
+
+.btnHover {
+  background-color: gray;
+}
+
+// Footer
+
+.home-footer-nav-bar{
+  ul li a{
+    color: gray;
+    
+  }
+
+  ul li{
+    
+    margin-top: 0.9rem;
+  }
+
+  ul h4{
+    margin-top: 2rem;
+    font-weight: 700;
+  }
+}
+
+.homeCopyright-link{
+ .copyrigh{
+    margin-right: 4rem;
+  }
+  span{
+    margin: 0rem  1rem;
+  }
+}

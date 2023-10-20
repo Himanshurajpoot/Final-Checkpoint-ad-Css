@@ -1,0 +1,172 @@
+.store-offer-info {
+    padding-top: 5rem;
+    animation-name: myAnimation;
+    animation-duration: 3s;
+    animation-delay: .5s;
+    animation-timing-function: ease-in-out;
+
+
+    .offer-slide-container {
+        width: 100%;
+        margin: 0 auto;
+        overflow: hidden;
+        scroll-behavior: smooth;
+
+        cursor: pointer;
+
+        .offer-slide {
+            min-width: 100%;
+        }
+    }
+}
+
+@keyframes myAnimation {
+
+    0% {
+        background-color: rgb(28, 121, 235);
+        color: white;
+        padding-top: 0;
+    }
+
+    25% {
+        background-color: rgb(28, 121, 235);
+        color: white;
+        padding-top: 5rem;
+    }
+
+    50% {
+        background-color: rgb(28, 121, 235);
+        color: white;
+        padding-top: 5rem;
+    }
+
+    75% {
+        background-color: rgb(28, 121, 235);
+        color: white;
+        padding-top: 5rem;
+    }
+
+    100% {
+        background-color: white;
+        padding-top: 5rem;
+    }
+
+}
+
+
+.store-header-nav-bar-links li a {
+    color: black;
+}
+
+// store-hero-section
+
+.store-hero-img {
+    img {
+        margin-right: 1rem;
+    }
+}
+
+// <!-- store-all-apple-prodect -->
+
+.store-all-apple-prodect {
+  margin-top: 10rem;
+  .container {
+        padding: 0;
+    }
+   figure {
+        margin-right: 2rem;
+        scroll-snap-align: end;
+
+        .h4 {
+            font-weight: 700;
+            font-size: 1.4rem;
+            color: rgb(91, 88, 88);
+            margin-top: 2rem;
+        }
+    }
+
+}
+
+
+.store-all-apple-prodect,
+.store-the-latest-col,
+.Apple-store-difference-col
+{
+    cursor: pointer;
+    overflow: auto;
+    scroll-snap-type: x mandatory;
+
+    &::-webkit-scrollbar {
+        width: 0;
+        background: transparent;
+    }
+
+}
+
+// .left-right-btn{
+//      left: 2rem;
+//      right: 2rem;
+//      // top: 3.5rem;
+//      bottom: 36.5%;  
+
+//      ul li {
+//          width: 4.5rem;
+//          height: 4.5rem;
+//          border-radius: 50%;
+//          background-color: rgba(128, 128, 128, 0.693);
+//          display: flex;
+//          justify-content: center;
+//          align-items: center;
+//          color: white;
+//          font-size: 2rem;
+
+//      }
+//  }
+
+
+// letest-scroll-col
+
+
+
+.store-the-latest-col {
+
+    .store-latest-col-article {
+        padding: 3rem;
+        border-radius: 30px;
+        min-width: 600px;
+        height: 750px;
+        margin-right: 2rem;
+        scroll-snap-align: end;
+        scroll-behavior: smooth;
+        span {
+            font-size: 1.3rem;
+        }
+
+        h2 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin: 0.8rem 0;
+        }
+    }
+}
+
+.store-latest-col-article,
+.store-help-article {
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+// <!-- Help is here. Whenever and however you need it.- section -->
+
+.store-help-col{
+    grid-template-columns: repeat(2, 1fr);
+    height: 750px;
+    gap: 2rem;
+    margin-bottom: 4rem;
+}
+
+.store-help-article{
+   border-radius: 2rem;
+   padding: 4rem 2.5rem;
+}
